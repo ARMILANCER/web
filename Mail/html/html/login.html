@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel = "stylescheet" type = "text/js" href="../js/login.js">
+    <link rel = "stylescheet" type = "text/css" href="../css/login.css">
+</head>
+<body>
+    <div id = "flor0">
+        <header id = "f0Header">
+            <div>
+                <h2>Login</h1>
+            </div>    
+        </header>
+        <div id = "input">
+            <div id = "input_mail">
+                <label for="mail">Email</label>
+                <input type = "mail" id = "mail" nome = "mail" required>
+            </div>
+            <div id = "input_mail">
+                <label for="password">Password</label>
+                <input type = "password" id = "password" nome = "password" required>
+            </div>
+            <div>
+                <button type="submit" onclick="validation()">Enter</button>
+            </div>
+        </div>
+        <div>
+            <small>Password deve contenere minimo 6 caratteri, almeno un numero, un 
+                carattere speciale # $ % &, una lettera maiuscola</small>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
