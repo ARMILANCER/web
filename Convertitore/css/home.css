@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.global_div{
+    display: flex;
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 30%;
+    width: 50%;
+    background-color:  #ffdd001a;
+
+}
+.view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row{
+
+    display: flex;
+}
+
+.select_value_import {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194 68 13 / 34%);
+    padding: 10px;
+}
+
+.text_area_value_import{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    text-size-adjust: 100%;
+    background-color: rgb(187 105 29 / 19%);
+    align-items: center;
+    padding: 10px;
+
+}
+
+
