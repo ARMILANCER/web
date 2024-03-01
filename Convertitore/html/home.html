@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <!-- specifica il tipo di relazione tra il doc corrente e il doc collegato -->
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    
+</head>
+<body class="html, body">
+    <div class="global_div">
+        <!-- select other converted --> 
+        <!-- <div >
+            <select name="" id="">
+                <option> element 1 </option>
+                <option> element 2 </option>
+            </select>
+        </div> -->
+        <div class="view">
+            <!-- select other converted --> 
+            <div class="row" onload="compiler()">
+                <div class="select_value_import">
+                    <select id="value_base">
+                        <option value="1.00">USD</option>
+                        <option value="1.18">EUR</option>
+                        <option value="1.38">GBP</option>
+                        <option value="0.0091">JPY</option>
+                        <option value="0.80">CAD</option>
+                        <option value="1.09">CHF</option>
+                        <option value="0.74">AUD</option>
+                        <option value="0.16">CNY</option>
+                        <option value="0.19">BRL</option>
+                        <option value="0.013">INR</option>
+                    </select>
+                </div>
+                <div class="select_value_import">
+                    <select id="value_change">
+                        <option value="1.18">EUR</option>
+                        <option value="1.00">USD</option>
+                        <option value="1.38">GBP</option>
+                        <option value="0.0091">JPY</option>
+                        <option value="0.80">CAD</option>
+                        <option value="1.09">CHF</option>
+                        <option value="0.74">AUD</option>
+                        <option value="0.16">CNY</option>
+                        <option value="0.19">BRL</option>
+                        <option value="0.013">INR</option>
+                    </select>
+                </div>
+            </div>
+             <!-- block plain test--> 
+            <div class="row">
+                <textarea class="text_area_value_import" id = "textA_base" inputmode="numeric" ></textarea>
+                <!-- The text can be copy but not modify -->
+                <textarea class="text_area_value_import" id = "textA_change" inputmode="numeric"></textarea>
+            </div>
+            <!-- block text code --> 
+            <!-- buttons --> 
+            <!-- <div>
+                <button id = "send">send </button>
+            </div> -->
+        </div>
+    </div>
+    <script src="../js/home.js"></script>
+</body>
