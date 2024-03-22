@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+
+    <!-- dinamic link for type of pad -->
+    <link id="DL_css" rel="stylesheet" type="text/css">
+</head>
+<body class="html, body" onload="homeStart()">
+    <div class="div_main">
+        <div id="button" class="button">
+            <button><img src="../img/5.png"></button>
+            <button><img src="../img/1.png"></button>
+        </div> 
+        <div class="div_test">
+            <!-- questxion type 1 -> id call of js-->
+            <div id="QT1"></div>
+            <!-- range type 1 -> id call of js-->
+            <div id="RT1">
+                <div id="limits" class="limits">
+                    <label id="limit_left" class="limit_left">Niente</label>
+                    <label id="limit_right" class="limit_right">Molto</label>
+                </div>
+                <div id="choice"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/home.js"></script>
+    <!-- dinamic script for type of pad -->
+    <script id="DS_js"></script>
+</body>
